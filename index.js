@@ -9,10 +9,10 @@ app.use(bodyParser.json());
 
 // Database Connection
 const db = mysql.createConnection({
-  host: "",
-  user: "",
-  password: "",
-  database: "",
+  host: "sql12.freemysqlhosting.net",
+  user: "sql12762989",
+  password: "kGgrfBqrn2",
+  database: "sql12762989",
   port: 3306,
 });
 
